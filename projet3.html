@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moteur Visual Novel — Paul Biget</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="project-page">
+
+    <nav>
+        <a href="index.html" class="nav-logo">PB</a>
+        <ul>
+            <li><a href="index.html#projects">← Retour</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <header class="project-header">
+            <div class="section-label">Projet 03</div>
+            <h1>Moteur de Visual Novel<span class="dot">.</span></h1>
+            <div class="project-meta">
+                <div class="meta-item">
+                    <span class="label">Domaine</span>
+                    <span>Game Design & Dev Logic</span>
+                </div>
+                <div class="meta-item">
+                    <span class="label">Stack</span>
+                    <span>JavaScript / SugarCube / CSS</span>
+                </div>
+                <div class="meta-item">
+                    <span class="label">Focus</span>
+                    <span>Architecture logicielle & UI</span>
+                </div>
+            </div>
+        </header>
+
+        <section class="project-hero-img-container">
+            <div class="project-hero-img">
+                <img src="img/1_projet3.png" alt="Interface de test du moteur">
+                <div class="img-overlay">
+                    <span class="overlay-text">Menu de Debug & Rendu</span>
+                </div>
+            </div>
+            <p class="img-caption"><strong>Environnement de test :</strong> Mise en place d'un menu de debug pour tester chaque module du moteur (dialogues, barres de stat, portraits) de manière isolée.</p>
+        </section>
+
+        <section class="project-details">
+            <div class="details-grid">
+                <div class="details-text">
+                    <h2>Le brief.</h2>
+                    <p>Création d'un moteur narratif capable d'automatiser les mécaniques classiques d'un Visual Novel. L'objectif était de séparer le contenu (l'histoire) du contenant (le code) pour faciliter l'écriture de jeux interactifs.</p>
+                    
+                    <h2>Logique de Widgets.</h2>
+                    <p>Au lieu de répéter le code, j'ai développé des <strong>widgets personnalisés</strong> en JavaScript. Cela permet d'appeler une simple fonction pour afficher un dialogue complexe ou mettre à jour une barre de progression, rendant le code source de l'histoire beaucoup plus propre.</p>
+                </div>
+
+                <div class="details-gallery">
+                    <div class="gallery-item">
+                        <img src="img/2_projet3.png" alt="Structure HTML de l'interface">
+                        <p class="img-caption"><strong>Structure UI :</strong> Définition des zones d'affichage (portraits, dialog-box, footer) en HTML pour un contrôle total via le CSS.</p>
+                    </div>
+
+                    <div class="gallery-item">
+                        <img src="img/3_projet3.png" alt="Initialisation des variables">
+                        <p class="img-caption"><strong>State Management :</strong> Gestion de l'état global du jeu avec l'initialisation des variables du joueur et des PNJ (portraits, statistiques).</p>
+                    </div>
+
+                    <div class="gallery-item">
+                        <img src="img/4_projet3.png" alt="Code des widgets">
+                        <p class="img-caption"><strong>Automatisation :</strong> Exemple du widget <code>&lt;&lt;dialogue&gt;&gt;</code> qui automatise l'affichage des noms et la gestion des portraits gauche/droite.</p>
+                    </div>
+
+                    <div class="gallery-item">
+                        <img src="img/1_projet3.png" alt="Rendu final">
+                        <p class="img-caption"><strong>Flexibilité :</strong> Le système permet des embranchements narratifs complexes tout en conservant une interface fluide.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <span>© 2025 Paul Biget</span>
+        <a href="mailto:paul.biget@gmail.com">paul.biget@gmail.com</a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

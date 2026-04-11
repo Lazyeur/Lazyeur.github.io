@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paul Biget — Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAV -->
+    <nav>
+        <span class="nav-logo">PB</span>
+        <ul>
+            <li><a href="#about">À propos</a></li>
+            <li><a href="#skills">Stack</a></li>
+            <li><a href="#projects">Projets</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="cv.pdf" target="_blank" class="nav-cv">CV</a></li>
+        </ul>
+    </nav>
+
+    <!-- HERO -->
+    <section id="hero">
+        <div class="hero-content">
+            <p class="hero-tag">Développeur Web Fullstack</p>
+            <h1>Paul<br>Biget<span class="dot">.</span></h1>
+            <p class="hero-sub">BUT MMI · Troyes · Parcours Développement<br>Recherche d'alternance 2026–2027</p>
+        </div>
+        <div class="hero-scroll">
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about">
+        <div class="section-label">01 — À propos</div>
+        <div class="about-grid">
+
+            <div class="about-portrait">
+                <img src="img/portrait.jpg" alt="Portrait de Paul Biget">
+            </div>
+
+            <div class="about-text">
+                <h2>Étudiant en MMI,<br>passionné par le web.</h2>
+                <p>En 1ère année de BUT MMI à l'IUT de Troyes (parcours Développement Web), je développe des applications web de bout en bout — conception de bases de données SQL, logique serveur, intégration front-end. Mon approche est celle d'un <strong>développeur fullstack</strong> : je pense autant à l'architecture qu'au rendu.</p>
+                <p>Ce qui me motive profondément, c'est la création de programmes où le <strong>code devient vecteur de narration</strong>. L'interactivité permet des récits impossibles ailleurs — des histoires où chaque choix a un poids, où l'utilisateur n'est pas spectateur mais acteur. C'est cette logique — structurer l'invisible pour que l'expérience soit fluide — qui nourrit aussi mes projets plus utilitaires : construire un back-end solide ou une base de données bien pensée, c'est le même travail d'architecture au service d'une expérience.</p>
+                <p>Je cherche une <strong>alternance à partir de 2026</strong> pour apporter autant qu'apprendre, dans une équipe où les projets ont du sens.</p>
+                <a href="cv.pdf" target="_blank" class="cv-link">Télécharger mon CV →</a>
+            </div>
+
+            <div class="about-card">
+                <div class="card-line">
+                    <span class="label">Formation</span>
+                    <span>BUT MMI — IUT de Troyes</span>
+                </div>
+                <div class="card-line">
+                    <span class="label">Année</span>
+                    <span>1ère année (2024–2025)</span>
+                </div>
+                <div class="card-line">
+                    <span class="label">Parcours</span>
+                    <span>Développement Web</span>
+                </div>
+                <div class="card-line">
+                    <span class="label">Alternance</span>
+                    <span>Rentrée 2026–2027</span>
+                </div>
+                <div class="card-line">
+                    <span class="label">Anglais</span>
+                    <span>C1</span>
+                </div>
+                <div class="card-line">
+                    <span class="label">Contact</span>
+                    <span><a href="mailto:paul.biget@gmail.com">paul.biget@gmail.com</a></span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+        <div class="section-label">02 — Stack technique</div>
+        <h2>Technologies.</h2>
+        <div class="skills-grid">
+            <div class="skill-item">
+                <div class="skill-logo"><img src="img/docker.png" alt="Docker"></div>
+                <span class="skill-name">Docker</span>
+            </div>
+            <div class="skill-item">
+                <div class="skill-logo"><img src="img/sql.png" alt="SQL"></div>
+                <span class="skill-name">SQL</span>
+            </div>
+            <div class="skill-item">
+                <div class="skill-logo"><img src="img/github.png" alt="GitHub"></div>
+                <span class="skill-name">GitHub</span>
+            </div>
+            <div class="skill-item">
+                <div class="skill-logo"><img src="img/html.png" alt="HTML"></div>
+                <span class="skill-name">HTML</span>
+            </div>
+            <div class="skill-item">
+                <div class="skill-logo"><img src="img/css.png" alt="CSS"></div>
+                <span class="skill-name">CSS</span>
+            </div>
+            <div class="skill-item">
+                <div class="skill-logo"><img src="img/javascript.png" alt="JavaScript"></div>
+                <span class="skill-name">JavaScript</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+        <div class="section-label">03 — Projets</div>
+        <h2>Ce que j'ai construit.</h2>
+        <div class="projects-grid">
+
+            <a href="projet1.html" class="project-card">
+                <div class="project-img">
+                    <img src="img/projet1.png" alt="Aperçu Projet 1">
+                </div>
+                <div class="project-body">
+                    <span class="project-num">01</span>
+                    <h3>Site Web Statique</h3>
+                    <p>Encyclopédie des Chauves-souris. Structure HTML sémantique, identité visuelle forte, tableaux et formulaires.</p>
+                    <div class="project-tags">
+                        <span>HTML</span><span>CSS</span>
+                    </div>
+                    <span class="project-link">Voir le projet →</span>
+                </div>
+            </a>
+
+            <a href="projet2.html" class="project-card">
+                <div class="project-img">
+                    <img src="img/projet2.png" alt="Aperçu Projet 2">
+                </div>
+                <div class="project-body">
+                    <span class="project-num">02</span>
+                    <h3>Application CRUD</h3>
+                    <p>Gestion de films d'animation. Back-office PHP connecté à une base SQL, opérations Create / Read / Update / Delete.</p>
+                    <div class="project-tags">
+                        <span>PHP</span><span>SQL</span><span>CSS</span>
+                    </div>
+                    <span class="project-link">Voir le projet →</span>
+                </div>
+            </a>
+
+            <a href="projet3.html" class="project-card">
+                <div class="project-img">
+                    <img src="img/projet3.png" alt="Aperçu Projet 3">
+                </div>
+                <div class="project-body">
+                    <span class="project-num">03</span>
+                    <h3>Moteur Visual Novel</h3>
+                    <p>Moteur narratif interactif en JavaScript/SugarCube. Widgets personnalisés, gestion d'état, embranchements narratifs.</p>
+                    <div class="project-tags">
+                        <span>JavaScript</span><span>SugarCube</span><span>CSS</span>
+                    </div>
+                    <span class="project-link">Voir le projet →</span>
+                </div>
+            </a>
+
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+        <div class="section-label">04 — Contact</div>
+        <div class="contact-inner">
+            <h2>Travaillons<br>ensemble.</h2>
+            <p>Je suis à la recherche d'une alternance pour la rentrée 2026–2027. Si vous avez un projet ou une opportunité, n'hésitez pas à me contacter.</p>
+            <a href="mailto:paul.biget@gmail.com" class="contact-link">paul.biget@gmail.com</a>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <span>© 2025 Paul Biget</span>
+        <span>MMI · IUT de Troyes</span>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
